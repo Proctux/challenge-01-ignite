@@ -24,6 +24,7 @@ section.task-list {
       align-items: center;
 
       background: #fff;
+      border-radius: 12px;
       font-size: 16px;
       
       input {
@@ -45,7 +46,7 @@ section.task-list {
         font-weight: 600;
         border-radius: 8px;
         border: 0;
-        background: var(--green);
+        background: var(--secondary);
         color: #fff;
         display: flex;
         flex-direction: row;
@@ -107,7 +108,7 @@ section.task-list {
 
               &:checked {
                 & ~ .checkmark {
-                  background-color: var(--blue);
+                  background-color: var(--primary);
                 }
 
                 & ~ .checkmark:after {
@@ -146,7 +147,7 @@ section.task-list {
           border: 0;
 
           svg {
-            color: var(--red);
+            color: var(--terciary);
           }
 
           &:hover {
